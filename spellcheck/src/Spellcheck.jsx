@@ -25,7 +25,7 @@ function Spellcheck(){
         <h1>Spell Check and Auto-Correction</h1>
         <textarea  onChange={handleInputChange} rows={5} col={40} placeholder="Enter text..."></textarea>
         {
-            suggestedText&&( <p>Did you mean: <strong>{suggestedText}</strong></p>)
+            suggestedText&&( <p>Did you mean: <strong>{suggestedText}</strong>?</p>)
         }
         </>
     );
